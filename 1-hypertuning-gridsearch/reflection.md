@@ -1,0 +1,4 @@
+REFLECTION 
+
+
+Tuning the hyperparameters was not a straightforward task for me. First I had difficulty understanding the code and then I had difficulty running tensorboard. A lot of new concepts which I have to get familiar with. Second, I refreshed my knowledge about the meaning of an epoch, matrix multiplication and class inheritence. Also looking at the logging around running neural networks and making transparant what it is doing. Finally I tried training the neural network, this went fine until I made some changes to the number of layers and hidden units per layer. This made me realize that the possible combinations grow exponentially and are hard for me to comprehend how quickly this grows and thus slow down the training of the neural network.
