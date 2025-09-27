@@ -1,0 +1,6 @@
+artifact_location: file:///C:/Users/tycoh/Desktop/MADS-ML-Tyco/2-hypertuning-mlflow/mlruns/703296915031955900
+creation_time: 1758972666006
+experiment_id: '703296915031955900'
+last_update_time: 1758972666006
+lifecycle_stage: active
+name: cnn_test_run

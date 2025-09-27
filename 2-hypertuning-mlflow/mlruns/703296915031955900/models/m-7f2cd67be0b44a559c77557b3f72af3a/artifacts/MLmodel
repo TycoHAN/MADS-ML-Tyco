@@ -1,0 +1,23 @@
+artifact_path: file:///C:/Users/tycoh/Desktop/MADS-ML-Tyco/2-hypertuning-mlflow/mlruns/703296915031955900/models/m-7f2cd67be0b44a559c77557b3f72af3a/artifacts
+flavors:
+  python_function:
+    config:
+      device: null
+    data: data
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.pytorch
+    pickle_module_name: mlflow.pytorch.pickle_module
+    python_version: 3.12.11
+  pytorch:
+    code: null
+    model_data: data
+    pytorch_version: 2.8.0+cpu
+mlflow_version: 3.3.2
+model_id: m-7f2cd67be0b44a559c77557b3f72af3a
+model_size_bytes: 113399
+model_uuid: m-7f2cd67be0b44a559c77557b3f72af3a
+prompts: null
+run_id: 86022e94de124ea18ab8b6e28f2104d3
+utc_time_created: '2025-09-27 11:31:06.880818'
