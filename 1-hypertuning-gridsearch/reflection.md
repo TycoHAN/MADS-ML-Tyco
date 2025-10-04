@@ -4,43 +4,9 @@ Tuning the hyperparameters was not a straightforward task for me. First I had di
 
 My initial hypothesis for the hyperparameter interactions was that a wider and deeper neural network would always produces better results for the task. After experimentating a bit, I have come to the conclusion that setting the right amount of epochs, optimizer settings, trainstep sizes and grid search strategy are very important. When this is set correctly only then you can worry about setting the right amount of units and layers. What is the right amount of units and layers? This depends on the complexity of the data, but also on the amount of compute and time you have for training a model. I have experienced for example that with every epoch a slight improvement of the model was seen, but this takes time. 
 
-I could not yet visualise my findings unfortunately but I did wrote down some hypothesis and experiments.
+I tried visualizing some of the findings
 
-Hypothesis 1
-Increasing the units means that more patterns can be learned per layer in the data and thus result in a model that fits better for a complex data pattern. (higher accuracy)  But can also cause overfitting so a high score on the train set and low on the test set.
-
-Experiment
-
-more units 1024,512,256
-
-less units 64, 32, 16
-
-Findings
-
-Highest accuracy with more units (0.87)
-
-Highest accuracy with less units (0.85)
-
-Conclusion
-
-This is not a complex data pattern because the difference is very small in accuracy
-
-Hypothesis 2
-A high epoch number means the model has seen the whole dataset more often and thus have a higher accuracy. With too much epochs there is a risk of overfitting.
-
-Experiment
-
-Epochs  5
-
-Findings
-
-More epochs gives higher accuracy
-
-Conclusion
-
-It learns the data better
-
-Hypothesis 3
+Hypothesis 
 A high batchsize lets the model train faster but also gives the model less opportunities to tune its weights resulting in less performance
 
 Experiment
