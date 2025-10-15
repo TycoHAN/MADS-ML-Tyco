@@ -35,3 +35,12 @@ Designed an experiment that uses the same hyperparameters.
 The results show a maximum of 96% percent accuracy with the same hyperparameters as GRU
 
 My conclusion is that LSTM is not outperforming GRU on this dataset, which makes sense because on the best score it has a very low train loss of 0.09 but the test loss is 0.16. This could indicate that LSTM is memorizing the training set and therefore indicate overfitting.
+
+Hypothesis 4
+AttentionGRU will have the same performance (99%) as GRU but then faster because it can focus on only the important parts via the attention layer.
+
+Designed an experiment that uses the same hyperparameters and one with less epochs to see if it is able to also get 99 with less epochs.
+
+The results show a maximum of 98% percent accuracy on the 3rd epoch already with the same hyperparameters as GRU!
+
+My conclusion is that AttentionGRU is outperforming GRU on this dataset in a sense that it is much faster in learning having a high accuracy of 98% in just 3 epochs time.
