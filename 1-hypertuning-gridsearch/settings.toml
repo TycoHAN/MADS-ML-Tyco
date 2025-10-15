@@ -1,9 +1,9 @@
 [model]
-epochs = 3
+epochs = 10
 metrics = ["Accuracy"]
 logdir = "modellogs"
-train_steps = 50
-valid_steps = 50
+train_steps = 937
+valid_steps = 156
 reporttypes = ["ReportTypes.TENSORBOARD", "ReportTypes.TOML"]
 [model.optimizer_kwargs]
 lr = 0.001
